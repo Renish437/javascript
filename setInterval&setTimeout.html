@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hlo</title>
+</head>
+<body>
+    <div class="container"></div>
+
+    <script>
+        console.log("This hello");
+        // setTimeout --> Allows us to run the function once after the interval of time
+        // clearTimeout --> Allows us to run the function repeatedly once after the interval of time
+
+        function greet(name, bye){
+            console.log("Good morning"+name+" "+bye);
+        }
+    //    timeOut= setTimeout(greet, 5000,"renish","Take care");
+    //    console.log(timeOut);
+    //    clearTimeout(timeOut);
+
+    interValid=setInterval(greet, 1000,"Harry","Goodnight");
+    clearInterval(interValid);
+
+    </script>
+</body>
+</html>
