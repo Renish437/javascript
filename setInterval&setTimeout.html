@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hlo</title>
 </head>
+<header><div class="container">
+    <h1>Hello Nepal</h1></header>
 <body>
-    <div class="container"></div>
+    
+        
+    </div>
+
+
+    
 
     <script>
         console.log("This hello");
@@ -16,13 +23,24 @@
         function greet(name, bye){
             console.log("Good morning"+name+" "+bye);
         }
+        let a="rnish"
+        greet(1,2);
+        function displayTime1(){
+            Time=new Date();
+            console.log(Time);
+            document.getElementById('time').innerHTML=Time;
+        }
+        setInterval(displayTime1,1000);
     //    timeOut= setTimeout(greet, 5000,"renish","Take care");
     //    console.log(timeOut);
     //    clearTimeout(timeOut);
 
-    interValid=setInterval(greet, 1000,"Harry","Goodnight");
-    clearInterval(interValid);
+    // function displayTime(){
+    //     time= new Date();
+    //     console.log(time);
+    
 
     </script>
 </body>
+<footer>Time now is <span id="time"></span></footer>
 </html>

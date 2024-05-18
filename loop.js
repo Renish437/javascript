@@ -3,7 +3,7 @@ let person=
     salary:"2000",
     qualification: "BCA",}]
     
-    person.salary="3000";
+    
     
 for (key in person){
     console.log(`The ${key} is ${person[key]} `);

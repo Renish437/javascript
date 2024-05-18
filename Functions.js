@@ -14,6 +14,8 @@ let greeting="Good morning";
 greet(name,greeting);
 greet(name1,greeting);
 greet(name2,greeting);
+
+
 let sum1=sum(1,2,3);
 console.log(sum1);
  
