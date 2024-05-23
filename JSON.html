@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <div class="container">
+        Arjun Time hera ta kati bajyo suta suta
+        <span id="hello1"></span>
+    </div>
+    <script>
+        // let jsonobj= {
+        //     name: "Renish",
+        //     channel: "CWR",
+        //     friend: "Rohan Das",
+        //     food:"Bhindi",
+            
+        // } 
+        // console.log(jsonobj);
+
+        // let myJsonStr= JSON.stringify(jsonobj);
+        // console.log(myJsonStr);
+
+        // myJsonStr= myJsonStr.replace("Renish","Renu");
+        // console.log(myJsonStr);
+
+        // newJsonObj= JSON.parse(myJsonStr);
+        //  console.log(newJsonObj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let employee=[{
+    name:"Renish",
+    IdNo:123,
+    Class:12,
+}
+// {
+//     name:["Ramesh"],
+//     IdNo:[132],
+//     Class:[121],}
+]
+
+
+ 
+
+console.log(employee);
+
+myJsonStr= JSON.stringify(employee); //Changes Array or Object to the String by stringify
+console.log(myJsonStr);
+
+let newStr= myJsonStr.replace("Ramesh","Sudesh");
+console.log(newStr);
+
+myJsonStr=myJsonStr.indexOf("Id");
+console.log(myJsonStr);
+
+newObj=JSON.parse(newStr); //changes String to Array or Object  by parse method
+console.log(newObj);
+
+
+
+setTimeout(helllo=()=>{
+    console.log("Hello there");
+},5000)
+
+let time=new Date();
+console.log(time);
+
+ hello=()=>{
+    tim=new Date();
+    console.log(tim);
+    document.getElementById('hello1').innerHTML=tim;
+}
+setInterval(hello,1000);
+
+
+    </script>
+</body>
+</html>

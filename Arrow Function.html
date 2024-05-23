@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        This is arrow function
+    </div>
+    <script>
+//     let  greet = ()=> {
+// console.log("Goodmorining");
+//         }
+        let greet=()=>console.log("Hello");
+        greet();
+
+        let sum=(a,b)=>{
+            return a+b;
+        }
+        let half=(a)=>a/2;
+
+        setTimeout(() => {
+            console.log("We are inside settimeout");
+        }, 5000);
+
+        let obj1={
+            
+            names:["Renish","Suresh","SkillF","Khiladibhaiya"],
+            speak(){
+                this.names.forEach((student)=>{
+                    console.log("Hello guys k xa"+student);
+                });
+            }
+
+            }
+            obj1.speak();
+
+        
+    </script>
+</body>
+</html>
